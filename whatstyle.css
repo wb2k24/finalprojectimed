@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #F23535;
+            padding: 10px 20px;
+			flex-wrap: wrap;
+        }
+        .navbar a {
+            color:black;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+        .navbar a:hover {
+            background-color: #BF4215;
+        }
+     .logo img{
+          
+			
+        }
+        .navbar .menu {
+            display: flex;
+        }
+
+
+.montserrat-alamo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.flexcontainer{
+	display: flex;
+	height:600px;
+	background-color:aqua;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.listfive{
+	list-style-type:circle;
+	color:#00A805;
+	font-size: 20px;
+	border:solid;
+}
