@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: #F2B705
+		}
+.henny-penny-regular {
+  font-family: "Henny Penny", serif;
+  font-weight: 700;
+  font-style: normal;
+text-align: center;
+}
+
+.flexcontainerhead{
+	display: flex;
+	justify-content: space-between;
+		background-color: #F23535;
+	max-height: 100px
+}
+
+.header1{
+            display: flex;
+           justify-content: space-between;
+		   background-color: #F23535
+          	
+        }
+        .header1 a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+			height: 20px;
+        }
+        .header1 a:hover {
+            background-color: #575757;
+        }
+
+h1{
+	text-align: center;
+}
+.maincontainer > .flexboxdinner{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+grid-row-gap: 200px
+
+	
+}
+.flexscroll {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            width: 100%;
+	justify-content:space-between;
+	margin-top: 20px
+        }
+.topfive{
+			display: flex;
+			min-width: 600px;
+            height: 200px;
+            border: solid;
+            align-items: center;
+			border-radius: 10px;
+ 			flex-direction: row;
+			 background-color:#BF4215;
+			margin-left: 20px;
+			
+        }
+.topimage{
+	height:196px;
+	width:290px;	
+		margin-top: 4px
+}
+       
+
+.info{
+	margin-right: 20px;
+	align-content: center;
+	max-width: 300px
+}
+.scrolltitle{
+	text-align: center;
+}
