@@ -6,6 +6,7 @@
 
 body{
 	background-color: #F2B705;
+	margin: auto
 }
 .flexcontainerus{
 	
@@ -20,14 +21,12 @@ body{
 	
 }
 
-
-.headerus{
+.header1{
             display: flex;
             justify-content: flex-end;
           	
-            padding: 10px;
         }
-        .headerus a {
+        .header1 a {
             color: white;
             text-decoration: none;
             padding: 10px 20px;
@@ -35,15 +34,17 @@ body{
             transition: background-color 0.3s;
 			height: 20px;
         }
-        .headerus a:hover {
-            background-color: #575757;
+        .header1 a:hover {
+            background-color: #BF4215;
         }
+
 .flexus{
 	display: flex;
 	flex-direction: row;
 	margin-top: 50px;
-	justify-content:space-between;
-	align-items:center;
+	justify-content: center;
+	column-gap: 50px;
+	
 	}
 
 .grouppic{
@@ -58,3 +59,28 @@ body{
 	margin-right: 100px;
 	height: 400px;
 }
+.footer2{
+	display: flex;
+	flex-direction: column;
+	background-color: #F23535; 
+	color: white; 
+	padding: 20px; 
+	text-align: center;
+	margin-top: 30px;
+}
+.footercont{
+	margin-bottom: 20px;
+	
+}
+.social{
+	margin-bottom: 20px;
+}
+.follow{
+	color: white; 
+	margin: 0 10px;
+}
+@media only screen and (max-width: 768px) {
+  	
+  [class="flexcontainerus"] {
+    width: 100%;
+	}}

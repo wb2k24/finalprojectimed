@@ -1,13 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Whatsfordinner</title>
 	<link rel="stylesheet" href="dinnerstyle.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script> 
+$(document).ready(function(){
+  $(".sigmar-one-regular").click(function(){
+    $(".topfive").slideToggle("slow");
+  });
+});
+</script>
 </head>
 
 <body>
@@ -15,16 +26,20 @@
 		
 		<div class="flexcontainerhead">
 		<div class="logopic">
-		<img src="images/newlogoalamo.png" alt="alamoeatzlogo">
+		<a href="index.html"> <img src="images/newlogoalamo.png" alt="logo"></a> 
 		</div>
 	<div class="header1">
-      <p> <a href="">Home</a> <a href="#about">About</a> <a href="#services">Services</a> <a href="aboutus.html">About Us</a></p>
+      <p> <a href="index.html">Home</a> 
+		  <a href="sweettooth.html">Sweet Tooth</a> 
+		  <a href="aboutus.html">About Us</a>
+		  <a href="Ourreviews.html">Our Reviews</a>
+		</p>
         
     </div>
 	</div>
-		<h1>What's For Dinner?</h1>
+		<h1>What are we having for dinner tonight?</h1>
 	<div class="flexboxdinner">
-		
+		<div><h1 class="sigmar-one-regular">Top 5 Oriental </h1></div>
 	<div class="flexscroll">
         <div class="topfive">
 			<section class="scrollpic">
@@ -109,6 +124,7 @@
 		</div>
 		
     </div>
+		<h1 class="sigmar-one-regular">Top 5 Mexican </h1>
 		<div class="flexscroll">
         <div class="topfive">
 			<section class="scrollpic">
@@ -190,6 +206,7 @@
 		</div>
 		
     </div>
+		<h1 class="sigmar-one-regular">Top 5 American </h1>
 		<div class="flexscroll">
         <div class="topfive">
 			<section class="scrollpic">
@@ -274,7 +291,7 @@
 		</div>
 		
     </div>
-
+<h1 class="sigmar-one-regular">Top 5 Italian </h1>
 		<div class="flexscroll">
         <div class="topfive">
 			<section class="scrollpic">
@@ -359,7 +376,9 @@
 		</div>
 		
     </div>
+		<h1 class="sigmar-one-regular">Top 5 Vegan </h1>
 		<div class="flexscroll">
+			
         <div class="topfive">
 			<section class="scrollpic">
 				<img src="images/plantologyscroll.png" class="topimage" alt="plantology">
@@ -445,5 +464,21 @@
     </div>
 		</div>
 	</div>
+	 <footer class="footer2"> 
+    <div class="footercont"> 
+        <h3>Contact Us</h3>
+        <p>Email: alamoeatz@gmail.com</p>
+        <p>Phone: (210) 444-4444</p>
+    </div>
+    <div class="social">
+        <h3>Follow Us</h3>
+        <a class="follow" href="https://www.facebook.com" >Facebook</a>
+        <a class="follow" href="https://www.twitter.com" >Twitter</a>
+        <a class="follow" href="https://www.instagram.com" >Instagram</a>
+    </div>
+    <div>
+        <p>&copy; 2024 Alamo Eatz. All rights reserved.</p>
+    </div>
+</footer>
 	</body>
 </html>

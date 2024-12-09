@@ -31,7 +31,7 @@
 			height: 20px;
         }
         .header1 a:hover {
-            background-color: #575757;
+            background-color: #BF4215;
         }
 
 .henny-penny-regular {
@@ -80,6 +80,7 @@ h1{
 	display:flex;
 	justify-content:center;
 	flex-direction: column;
+	align-items: center;
 	
 	
 	
@@ -87,13 +88,15 @@ h1{
 .container3{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	
+	align-items: center;
 	}
 .container4{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 40px;
+	align-items: center;
 	
 		
 }
@@ -120,6 +123,10 @@ h1{
 	height:150px;
 	border: solid;
 	margin-top: 20px;
+	max-width: 800px;
+	background-color: #BF4215;
+	border-radius: 10px;
+	
 }
         .section5 {
             flex: 1;
@@ -127,29 +134,18 @@ h1{
             justify-content: center;
             align-items: center;
             padding: 2rem;
-            border-bottom: 1px solid #ccc;
+           
         }
-.section6{
-	
-	display: flex;
-	height:150px;
-	border: solid;
-	margin-top: 20px;
-}
+
 .section7{
 	         flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 2rem;
-            border-bottom: 1px solid #ccc;
+           
 }
-.section8{
-	display: flex;
-	height:150px;
-	border: solid;
-	margin-top: 20px;
-}
+
 .image1{
 	height:475px;
 	width:800px;
@@ -163,3 +159,28 @@ h1{
 video{
 	height:350px;
 }
+.footer2{
+	display: flex;
+	flex-direction: column;
+	background-color: #F23535; 
+	color: white; 
+	padding: 20px; 
+	text-align: center;
+	margin-top: 30px;
+}
+.footercont{
+	margin-bottom: 20px;
+	
+}
+.social{
+	margin-bottom: 20px;
+}
+.follow{
+	color: white; 
+	margin: 0 10px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */	
+  [class="container"] {
+    width: 100%;
+	}}
